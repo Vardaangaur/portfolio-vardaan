@@ -2,7 +2,7 @@ import React from "react";
 import { HERO_CONTENT } from "../constants"; 
 import profilePic from "../assets/heroVardaan.jpg";
 import { motion } from "framer-motion";
-import resume from "../assets/projects/Final_resume.pdf"; // Your PDF
+import resume from "../assets/Final_resume.pdf"; // Your PDF
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
