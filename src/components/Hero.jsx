@@ -2,7 +2,7 @@ import React from "react";
 import { HERO_CONTENT } from "../constants"; 
 import profilePic from "../assets/heroVardaan.jpg";
 import { motion } from "framer-motion";
-import resume from "../assets/Final_resume.pdf"; // Your PDF
+import resume from "../assets/projects/Final_resume.pdf"; // Your PDF
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -48,35 +48,28 @@ const Hero = () => {
             </motion.p>
 
             {/* Download Resume Button */}
-<motion.a
-  variants={container(1.5)}
-  initial="hidden"
-  animate="visible"
-  href="/assets/Final_resume.pdf"
-  download
-  whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(236,72,153,0.8)" }}
-  whileTap={{ scale: 0.95 }}
-  className="mt-6 rounded-lg bg-gradient-to-r from-pink-400 via-slate-500 to-purple-500 px-6 py-3 
-             text-white font-semibold shadow-lg hover:opacity-90 transition-all"
->
-  Download Resume
-</motion.a>
-
+            <motion.a
+              href={resume}   // link to your Final_resume.pdf
+              download
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="mt-6 rounded-lg bg-[#fe424d] px-6 py-3 text-white font-medium hover:bg-red-600 transition-colors"
+            >
+              Download Resume
+            </motion.a>
           </div>
         </div>
 
         {/* Right side: Image */}
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-<motion.img
-  initial={{ x: 100, opacity: 0 }}
-  animate={{ x: 0, opacity: 1 }}
-  transition={{ duration: 1, delay: 1.2 }}
-  src={profilePic}
-  alt="Vardaan"
-  className="rounded-full w-[32rem] h-[32rem] object-cover"
-/>
-
+            <motion.img
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.2 }}
+              src={profilePic}
+              alt="Vardaan"
+            />
           </div>
         </div>
       </div>
