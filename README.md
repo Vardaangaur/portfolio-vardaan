@@ -1,12 +1,52 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Preview
 
-## Expanding the ESLint configuration
+![Portfolio Preview](./src/assets/projects/project4/project4.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+- Fully responsive design
+- Smooth animations
+- Showcases projects and skills elegantly
+- Fast and lightweight
+
+---
+
+## 🛠️ Tech Stack
+- React.js  
+- Tailwind CSS  
+- Framer Motion  
+
+---
+
+## ⚡ Run Locally
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+npm install
+npm run dev
+
+Then open:
+👉 http://localhost:5173
+✨ Author
+
+Vardaan Gaur
+📫 LinkedIn
+• GitHub
+
+⭐ If you like it, consider giving it a star!
+
+
+---
+
+### 💡 Tip:
+- Make sure your image file is named exactly like in the markdown (e.g. `project4.png`).
+- GitHub supports only **relative paths**, so `./src/assets/projects/project4/project4.png` will display the image correctly **after you push** your code.
+
+Would you like the README to be *minimal and image-only* (just title + preview image + author credit
