@@ -1,48 +1,58 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+export const HERO_CONTENT = `I am a passionate Full Stack Developer with a knack for crafting robust, scalable, and user-focused web applications. As a 3rd-year Computer Science student, I’ve honed my skills in front-end technologies like React and back-end frameworks such as Node.js, Express.js, MySQL, and MongoDB. My goal is to leverage technology to design meaningful digital experiences that solve real-world problems with efficiency and elegance.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. As a 3rd-year Computer Science student, I have developed strong skills in front-end technologies like React and back-end technologies such as Node.js, Express.js, MySQL, and MongoDB. My goal is to apply my knowledge to build innovative solutions that solve real-world problems while delivering exceptional user experiences.`;
+export const ABOUT_TEXT = `I am a versatile Full Stack Developer driven by a deep curiosity for how things work and a commitment to building impactful digital solutions. Currently pursuing my B.Tech in Computer Science at GL Bajaj Institute of Technology and Management, I’ve gained hands-on experience across the MERN stack—React, Node.js, Express.js, and MongoDB—along with MySQL for structured data management. I thrive in collaborative, fast-paced environments, love solving complex problems, and constantly push myself to learn emerging tools and technologies. Outside coding, I enjoy exploring tech trends, contributing to open-source projects, and staying active.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. As a 3rd-year Computer Science student at GL Bajaj Institute of Technology and Management, I have gained hands-on experience with a variety of technologies, including React, Node.js, Express.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has grown into a commitment to building scalable and impactful digital solutions. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality results. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
-// Empty for now – ready to be filled with internships or future work
+// Empty for now – ready for future internships or work experience
 export const EXPERIENCES = [];
+
+// ---- PROJECTS ----
+import project1 from "../assets/projects/project2.png"; // Skill Swap image
+import project2 from "../assets/projects/project1.png"; // AI Interview Prep image
+import project3 from "../assets/projects/project3.png"; // Day Planner image
+import project4 from "../assets/projects/project4.png"; // Portfolio image
 
 export const PROJECTS = [
   {
-    title: "Currency Converter",
+    title: "AI Interview Prep",
+    description:
+      "An AI-driven interview preparation platform that generates personalized technical questions and suggested answers using the Gemini API. Simulates realistic interviews to help users build confidence and track progress.",
     image: project1,
-    description:
-      "A web application that converts currencies in real-time using exchange rate APIs. Built with React and Tailwind CSS, featuring a clean UI and custom hooks.",
-    technologies: ["React", "Tailwind CSS", "API Integration"],
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Gemini API"],
+    github: "https://github.com/yourusername/ai-interview-app",
+    demo: "https://ai-interview-app.vercel.app",
   },
   {
-    title: "Portfolio Website",
+    title: "Skill Swap",
+    description:
+      "A MERN-based collaboration platform enabling users to connect and exchange skills or services seamlessly. Focused on community growth and real-world knowledge sharing without relying on Socket.io.",
     image: project2,
-    description:
-      "A personal portfolio website to showcase my skills, projects, and contact information. Designed with modern UI principles for responsiveness and performance.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-  },
-  {
-    title: "E-Commerce Website",
-    image: project3,
-    description:
-      "A fully functional e-commerce platform with product listing, shopping cart, and user authentication features.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/yourusername/skill-swap",
+    demo: "https://skill-swap.vercel.app",
   },
   {
-    title: "Task Management App",
-    image: project4,
+    title: "Day Planner",
     description:
-      "An application for managing tasks and projects, with features like task creation, deadlines, and progress tracking.",
-    technologies: ["React", "Node.js", "Express.js", "MySQL"],
+      "A MERN-based task management application designed to help users organize and track their daily activities. Features CRUD operations, deadline tracking, and responsive UI built with React and Tailwind CSS.",
+    image: project3,
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
+    github: "https://github.com/yourusername/day-planner",
+    demo: "https://day-planner.vercel.app",
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "A modern, animated portfolio website showcasing my skills, projects, and background. Built with React, Tailwind CSS, and Framer Motion for smooth transitions and an engaging user experience.",
+    image: project4,
+    technologies: ["React", "Framer Motion", "Tailwind CSS"],
+    github: "https://github.com/yourusername/portfolio",
+    demo: "https://yourportfolio.vercel.app",
   },
 ];
 
+
 export const CONTACT = {
   address: "Greater Noida, India",
-  phoneNo: "+91 8077317929", // optional, or keep blank
-  email: "vardaangaur777@gmail.com", // replace with your email
+  phoneNo: "+91 8077317929",
+  email: "vardaangaur777@gmail.com",
 };

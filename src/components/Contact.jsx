@@ -10,12 +10,7 @@ const Contact = () => {
       href: "#", 
       text: "text-pink-500" 
     },
-    { 
-      label: "Phone", 
-      value: CONTACT.phoneNo, 
-      href: `tel:${CONTACT.phoneNo}`, 
-      text: "text-green-400" 
-    },
+
     { 
       label: "Email", 
       value: CONTACT.email, 
