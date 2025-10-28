@@ -1,27 +1,26 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Personal Portfolio — Vardaan Gaur
 
-A sleek, modern portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**.
+A modern, responsive portfolio website built using **React**, **Tailwind CSS**, and **Framer Motion** — designed to showcase my projects, skills, and journey as a developer.
 
 ---
 
-## 🖼️ Preview
-
-![Portfolio Preview](./src/assets/projects/project4/project4.png)
+## 🔗 Live Demo
+👉 [View Portfolio](https://portfolio-vardaan-9h32-haebutn3m-vardaangaurs-projects.vercel.app)
 
 ---
 
 ## 🚀 Features
-- Fully responsive design
-- Smooth animations
-- Showcases projects and skills elegantly
-- Fast and lightweight
+- Elegant and minimal UI  
+- Fully responsive layout  
+- Smooth animations using Framer Motion  
+- Showcases my projects, skills, and contact details  
 
 ---
 
 ## 🛠️ Tech Stack
-- React.js  
-- Tailwind CSS  
-- Framer Motion  
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
 
 ---
 
@@ -32,7 +31,7 @@ cd <repo-name>
 npm install
 npm run dev
 
-Then open:
+Then visit:
 👉 http://localhost:5173
 ✨ Author
 
@@ -45,8 +44,5 @@ Vardaan Gaur
 
 ---
 
-### 💡 Tip:
-- Make sure your image file is named exactly like in the markdown (e.g. `project4.png`).
-- GitHub supports only **relative paths**, so `./src/assets/projects/project4/project4.png` will display the image correctly **after you push** your code.
+Would you like me to make a **shorter “minimal version”** (only title + live link + tech stack + author)? That one looks super clean for portfolio repos.
 
-Would you like the README to be *minimal and image-only* (just title + preview image + author credit
