@@ -13,40 +13,62 @@ import project4 from "../assets/projects/project4.png"; // Portfolio image
 
 export const PROJECTS = [
   {
+    title: "Polling App",
+    description:
+      "A full-stack polling platform where users can create polls, vote, bookmark polls, and view results. Features JWT authentication, user profiles, poll analytics, and a responsive user interface.",
+    image: project1,
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Vardaangaur/Polling-App",
+  },
+  {
     title: "AI Interview Prep",
     description:
-      "An AI-driven interview preparation platform that generates personalized technical questions and suggested answers using the Gemini API. Simulates realistic interviews to help users build confidence and track progress.",
-    image: project1,
-    technologies: ["React", "Node.js", "Express.js", "MongoDB", "Gemini API"],
-    github: "https://github.com/yourusername/ai-interview-app",
-    demo: "https://ai-interview-app.vercel.app",
+      "An AI-powered interview preparation platform that generates personalized technical questions and suggested answers using the Gemini API. Helps users practice interviews, improve confidence, and track progress through simulated interview sessions.",
+    image: project2,
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Gemini API",
+    ],
+    github: "https://github.com/Vardaangaur/Preply-AI",
+  },
+  {
+    title: "Loom Chat",
+    description:
+      "A real-time chat application enabling instant messaging between users. Features secure authentication, online user presence, responsive design, and seamless communication using Socket.io.",
+    image: project3,
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Vardaangaur/Loom-Chat",
   },
   {
     title: "Skill Swap",
     description:
-      "A MERN-based collaboration platform enabling users to connect and exchange skills or services seamlessly. Focused on community growth and real-world knowledge sharing without relying on Socket.io.",
-    image: project2,
-    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/yourusername/skill-swap",
-    demo: "https://skill-swap.vercel.app",
-  },
-  {
-    title: "Day Planner",
-    description:
-      "A MERN-based task management application designed to help users organize and track their daily activities. Features CRUD operations, deadline tracking, and responsive UI built with React and Tailwind CSS.",
-    image: project3,
-    technologies: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-    github: "https://github.com/yourusername/day-planner",
-    demo: "https://day-planner.vercel.app",
-  },
-  {
-    title: "Personal Portfolio",
-    description:
-      "A modern, animated portfolio website showcasing my skills, projects, and background. Built with React, Tailwind CSS, and Framer Motion for smooth transitions and an engaging user experience.",
+      "A MERN-based collaboration platform that enables users to exchange skills and services. Includes profile management, skill listings, and community-driven interactions for knowledge sharing and networking.",
     image: project4,
-    technologies: ["React", "Framer Motion", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.vercel.app",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Vardaangaur/Skillo",
   },
 ];
 
